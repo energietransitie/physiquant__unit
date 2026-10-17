@@ -24,7 +24,7 @@ In energy software development, the same risks apply on a smaller scale: a megaw
 - Use **metric prefix symbols** (k, m, M, G) and units with proper capitalization (Hz, W, s).
 - For programming languages without Unicode support, use `u` instead of `µ`.
 - For **compound units**, separate factors by a single underscore (`_`); do *not* use multiplication signs.
-- Attach **positive exponents** directly after the unit (omit `1`), e.g. `m2` for suqare meters.
+- Attach **positive exponents** directly after the unit (omit `1`), e.g. `m2` for square meters.
 - For **reciprocal notation**, use negative exponents with a preceding single underscore (`_`), e.g. `m_s_2`.
 - Avoid percentages (`%`). Express as fractions and end variable names with `__0` (suggesting unit^0).  
 - For **dimensionless metrics**, prefer an explicit "Watt per Watt" (`__W0`) or similar, which is more informative than `__0`.
